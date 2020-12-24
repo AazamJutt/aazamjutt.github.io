@@ -36,12 +36,12 @@ let header = $(`
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
         <li><a class="white-text" href="index.html">Home</a></li>
-        <li><a class="white-text" href="experience.html">Experience</a></li>
-        <li><a class="white-text" href="projects.html">Projects</a></li>
-        <li><a class="white-text" href="research.html">Research</a></li>
+        <li><a class="white-text" href="">Experience</a></li>
+        <li><a class="white-text" href="">Projects</a></li>
+        <li><a class="white-text" href="">Research</a></li>
         <li><a class="white-text" href="education.html">Education</a></li>
         <li><a class="white-text" href="index.html">Blog</a></li>
-        <li><a class="white-text" href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
+        <li><a class="white-text" href="" target="_blank">My Resume</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
         <label for="switch" class="theme-switch">
@@ -125,13 +125,6 @@ let footer = $(`
     <i class="fab fa-github"></i>
       </a>
   </div>
-
-  <div class="simple-text text-center dark padding-sm">
-  <div class="row" id="socials">
-                        </ul><p style="color:rgb(255,255,255)" class="copyright text-center">Copyright &copy; AazamJutt 2020 | <a style="text-decoration:none;font-weight:700" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=m.aazasultan@gmail.com" target="_blank">m.aazasultan@gmail.com</a></p></div>
-               
-  </div>
-
   </div>
 
       <div class="col-sm-6 col-md-5 pt-3 footer-2 mx-auto">
@@ -169,6 +162,17 @@ let footer = $(`
    <center class="text-animation">Made with <i class="fa fa-heart" style="color: red;"></i></center>
   </div>
 </div> -->
+
+
+  <div class="simple-text text-center dark padding-sm">
+  <div class="col-lg-30 col-md-20 pt-3" id="socials">
+        <p style="color:rgb(255,255,255); font-size:80%" class="copyright text-center">Copyright &copy; AazamJutt 2020   | 
+          <a style="text-decoration:none;font-weight:700" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=m.aazasultan@gmail.com" target="_blank">m.aazasultan@gmail.com
+          </a>
+        </p>
+  </div>
+               
+  </div>
 
 </footer>`);
 let bodyElement = $(`body`);

@@ -2,7 +2,7 @@
 html[data-theme="light"] {
   --bg-mybtn: red;
   --bg-nav: #000000;
-  --bg-nav-img: #000000;
+  --bg-nav-img: linear-gradient(70deg, rgba(255,85,0,1) 12%, rgba(209,8,8,1) 47%, rgba(255,0,121,1) 84%, rgba(102,23,203,1) 315%);
   --bg: #ffffff;
   --text: #191919;
   --text-color: #6c757d;
@@ -11,7 +11,7 @@ html[data-theme="light"] {
 html[data-theme="dark"] {
   --bg-mybtn: rgb(230, 109, 129);
   --bg-nav: #6617cb;
-  --bg-nav-img: linear-gradient(315deg, #6617cb 0%, #882463 74%);
+  --bg-nav-img: linear-gradient(147deg, #000000 0%, #04619f 74%);
   --bg: #191919;
   --text: #ffffff;
   --text-color: #fff;
