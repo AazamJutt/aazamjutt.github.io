@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en" class="js-focus-visible" data-js-focus-visible="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <!-- CSS Libraries Export -->
+    <link rel="stylesheet" href="assets/libs/bootstrap.css" />
+    <link rel="stylesheet" href="assets/libs/materialDesign.css" />
+    <link rel="stylesheet" href="assets/libs/icons.css" />
+    <!-- Custom style Css -->
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+
+  <body
+    style="overflow: visible"
+    data-new-gr-c-s-check-loaded="14.1052.0"
+    data-gr-ext-installed=""
+  >
+    <!-- START LOADER -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">Loading...</div>
+      </div>
+    </div>
+    <!-- END LOADER -->
+
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+      <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="#">
+          <img src="assets/images/sign.png" alt="" class="img-fluid" />
+        </a>
+        <button onclick="toggleNav()" class="navbar-toggler" type="button">
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="animation.html" class="nav-link">Animation</a>
+            </li>
+            <li class="nav-item">
+              <a href="education.html" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="work.html" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Contact</a>
+            </li>
+            <li>
+              <button class="btn" onclick="toggleTheme()">
+                <img
+                  src="./assets/images/lightbulb-fill.svg"
+                  alt=""
+                  id="light-bulb-elem"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- CONTACT FORM START-->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2>Get In <span class="font-weight-bold">Touch</span></h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+              <p class="mx-auto mt-2">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+            <ul class="social_contact list-unstyled text-center pt-4">
+              <li class="list-inline-item">
+                <a href="#"><i class="mdi mdi-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="mdi mdi-linkedin"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="mdi mdi-dribbble"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="mdi mdi-google-plus"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="mdi mdi-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-4 pt-4">
+          <div class="col-lg-4">
+            <div class="text-center mt-4">
+              <div class="shake">
+                <i class="mbri-mobile2 text-custom h2"></i>
+              </div>
+              <div class="mt-2">
+                <p class="mb-0 font-weight-bold">Call Us On</p>
+                <p class="">+985 123 7856</p>
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <div class="shake">
+                <i class="mbri-letter text-custom h2"></i>
+              </div>
+              <div class="mt-2">
+                <p class="mb-0 font-weight-bold">Email Us At</p>
+                <p class="">exmaple@gmail.com</p>
+              </div>
+            </div>
+            <div class="text-center mt-4">
+              <div class="shake">
+                <i class="mbri-pin text-custom h2"></i>
+              </div>
+              <div class="mt-2">
+                <p class="mb-0 font-weight-bold">Visit Office</p>
+                <p class="">202, Grasselli Street , Conway.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="contact_form">
+              <form>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group mt-2">
+                      <label for="name" class="font-weight-bold">Name</label>
+                      <input
+                        name="name"
+                        id="name"
+                        type="text"
+                        class="form-control"
+                        placeholder="Your name..."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group mt-2">
+                      <label for="email" class="font-weight-bold"
+                        >Email address</label
+                      >
+                      <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        class="form-control"
+                        placeholder="Your email..."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <label for="subject" class="font-weight-bold"
+                        >Subject</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="subject"
+                        placeholder="Your Subject.."
+                        required=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <label for="comments" class="font-weight-bold"
+                        >Message</label
+                      >
+                      <textarea
+                        name="comments"
+                        id="comments"
+                        rows="4"
+                        class="form-control"
+                        placeholder="Your message..."
+                        required=""
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 text-right">
+                    <input
+                      type="submit"
+                      class="btn btn-custom"
+                      value="Send Message"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT FORM END-->
+
+    <!-- START FOOTER -->
+    <section class=" ">
+      <div class="container">
+        <div class="row pt-4 pb-4">
+          <div class="col-lg-12">
+            <div class="float-left float_none mt-2 mb-2">
+              <p class="copy-rights mb-0">2022 © Portfolio</p>
+              <p class="copy-rights mb-0">
+                Animations section built with JQuery and ThreeJS library
+              </p>
+            </div>
+            <div class="float-right float_none mt-2 mb-2">
+              <ul class="list-inline fot_social mb-0">
+                <li class="list-inline-item">
+                  <a href="" class="social-icon"
+                    ><i class="mdi mdi-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="" class="social-icon"
+                    ><i class="mdi mdi-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="" class="social-icon"
+                    ><i class="mdi mdi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="" class="social-icon"
+                    ><i class="mdi mdi-google-plus"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOTER -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="assets/libs/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>

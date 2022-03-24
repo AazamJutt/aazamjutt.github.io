@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" class="js-focus-visible" data-js-focus-visible="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <!-- CSS Libraries Export -->
+    <link rel="stylesheet" href="assets/libs/bootstrap.css" />
+    <link rel="stylesheet" href="assets/libs/materialDesign.css" />
+    <link rel="stylesheet" href="assets/libs/icons.css" />
+    <!-- Custom style Css -->
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+
+  <body
+    style="overflow: visible"
+    data-new-gr-c-s-check-loaded="14.1052.0"
+    data-gr-ext-installed=""
+  >
+    <!-- START LOADER -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner">Loading...</div>
+      </div>
+    </div>
+    <!-- END LOADER -->
+
+    <!-- START NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-nav sticky">
+      <div class="container">
+        <!-- LOGO -->
+        <a class="navbar-brand logo" href="#">
+          <img src="assets/images/sign.png" alt="" class="img-fluid" />
+        </a>
+        <button onclick="toggleNav()" class="navbar-toggler" type="button">
+          <i class="mdi mdi-menu"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li> -->
+            <li class="nav-item">
+              <a href="animation.html" class="nav-link">Animation</a>
+            </li>
+            <li class="nav-item">
+              <a href="education.html" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="work.html" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li>
+              <button class="btn" onclick="toggleTheme()">
+                <img
+                  src="./assets/images/lightbulb-fill.svg"
+                  alt=""
+                  id="light-bulb-elem"
+                />
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="text-center mx-auto section-main-title">
+              <h2><span class="font-weight-bold">About </span>Me</h2>
+              <div class="main-title-border">
+                <i class="mdi mdi-asterisk"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <img
+              src="assets/images/profilepc.png"
+              width="300"
+              alt=""
+              class="rounded-circle img-fluid mx-auto d-block mb-4 clickable"
+            />
+
+            <!-- <div class="d-flex justify-content-center">
+              <button class="play-btn-rounded wobble" onclick="toggleSpeech()">
+                <a href="#">
+                  Introduction <i id="play-gfx" class="mdi mdi-play"></i>
+                </a>
+              </button>
+              <audio id="audio" preload="none" loop hidden>
+                <source src="assets//resources/audio.mp3" type="audio/mpeg" />
+              </audio>
+            </div> -->
+            <div class="text-center about-detail mx-auto mt-5">
+              <h3 class="mb-3">
+                Hello!
+                <span class="font-weight-bold text-custom"
+                  >I'm Muhammad Azam.</span
+                >
+              </h3>
+              <ul class="mb-0 list-inline text-center about-work">
+                <li class="list-inline-item mr-0">Web Developer</li>
+                <li class="list-inline-item mr-0">Designer</li>
+                <li class="list-inline-item mr-0">Programmer</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <div class="progress-bars skill-custom">
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">
+                  React Js
+                </div>
+                <div class="float-right">70%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Node Js</div>
+                <div class="float-right">60%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">
+                  Photoshop
+                </div>
+                <div class="float-right">88%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 88%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="progress-bars skill-custom">
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Html</div>
+                <div class="float-right">96%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 86%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Css</div>
+                <div class="float-right">70%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <div class="clearfix">
+                <div class="text-dark font-weight-bold float-left">Java</div>
+                <div class="float-right">80%</div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- START FOOTER -->
+    <section class=" ">
+      <div class="container">
+        <div class="row pt-4 pb-4">
+          <div class="col-lg-12">
+            <div class="float-left float_none mt-2 mb-2">
+              <p class="copy-rights mb-0">2022 © Portfolio</p>
+              <p class="copy-rights mb-0">
+                Animations section built with JQuery and ThreeJS library
+              </p>
+            </div>
+            <div class="float-right float_none mt-2 mb-2">
+              <ul class="list-inline fot_social mb-0">
+                <li class="list-inline-item">
+                  <a href="" class="social-icon"
+                    ><i class="mdi mdi-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="" class="social-icon"
+                    ><i class="mdi mdi-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="" class="social-icon"
+                    ><i class="mdi mdi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="" class="social-icon"
+                    ><i class="mdi mdi-google-plus"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOTER -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="assets/libs/jquery.min.js"></script>
+    <script src="assets/script.js"></script>
+    <script>
+      // start of audio playing Button Logic
+      var audioPlaying = false;
+      var audio = document.getElementById("audio");
+
+      function toggleSpeech() {
+        document.getElementById("play-gfx").classList.toggle("mdi-play");
+        document.getElementById("play-gfx").classList.toggle("mdi-pause");
+        if (audioPlaying) {
+          audio.pause();
+          audioPlaying = false;
+        } else {
+          audio.play();
+          audioPlaying = true;
+        }
+      }
+      // end of audio playing Logic
+    </script>
+  </body>
+</html>
